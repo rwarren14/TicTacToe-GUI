@@ -12,7 +12,7 @@ import javax.swing.*;
 public class TicTacToeGameBoard extends JFrame{
    
    private JButton[][] buttons = new JButton[3][3];
-   TicTacToe Board = new TicTacToe();
+   TicTacToe Board = new TicTacToe(); //make sure this is with your main that you wrote last week. same folder
    
    public TicTacToeGameBoard(){
       guiBoard();
@@ -64,9 +64,6 @@ public class TicTacToeGameBoard extends JFrame{
    }
    
 
-   /**
-    * @param args the command line arguments
-    */
    public static void main(String[] args) {
    
       TicTacToeGameBoard ticTacToeGameBoard = new TicTacToeGameBoard();
