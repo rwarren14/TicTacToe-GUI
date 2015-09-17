@@ -64,4 +64,3 @@ Force a Tie
     Mark Location       2   2
     Check Location  2   2   X
     Winner Should Be    TIE
-
